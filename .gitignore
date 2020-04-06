@@ -1,4 +1,5 @@
 __pycache__
 .ipynb*
-.venv
+.covid_tracker
 .vscode
+exported
