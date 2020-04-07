@@ -40,7 +40,7 @@ jupyter nbconvert --to html --TagRemovePreprocessor.remove_input_tags='{"hide_ce
 # get rid of the now redundant kernel
 jupyter kernelspec remove .temp-covid-tracker -f
 
-git add -a -m "update notebooks"
+git commit -a -m "update notebooks"
 git push
 
 # move back up and get ready to update the Github Pages blog
