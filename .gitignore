@@ -1,4 +1,6 @@
 __pycache__
+*.shp
+*.dbf
 .ipynb*
 .covid_tracker
 .vscode
